@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Young Wook Baek Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <section class="row title-row">
+                <div class="col-md-6">
+                    <img class="img-responsive title-logo" src="images/udacity-logo.jpg" alt="udacity-logo">
+                </div>
+
+                <div class="col-md-6">
+                    <h1 class="text-uppercase text-right">youngwook baek</h1>
+                    <h4 class="text-capitalize text-right">udacity student</h4>
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-12">
+                    <hr class="thick">
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive" src="images/main-sm.jpg" srcset="images/main-lg.jpg 1684w, images/main-md.jpg 877w, images/main-sm.jpg 400w" alt="main-image">
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-12">
+                    <h2 class="project-header">Projects</h2>
+                </div>
+            </section>
+
+            <section class="row">
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive project-img" src="images/film.jpg" alt="film" data-toggle="modal" data-target="#movie">
+                    <h3>Movie Trailer Website</h3>
+                    <a class="project-link" href="https://github.com/kywbaek/Project1_Movie_Trailer_Website">https://github.com/kywbaek/Project1_Movie_Trailer_Website</a>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive project-img" src="images/bible.jpg" alt="bible" data-toggle="modal" data-target="#bible">
+                    <h3>Bible Verses Classifier</h3>
+                    <a class="project-link" href="https://github.com/kywbaek/bible_verses_classifier">https://github.com/kywbaek/bible_verses_classifier</a>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <img class="img-responsive project-img" src="images/mlb-logo.jpg" alt="mlb-logo" data-toggle="modal" data-target="#mlb">
+                    <h3>MLB Stat Importance</h3>
+                    <a class="project-link" href="https://github.com/kywbaek/mlb_stat_importance">https://github.com/kywbaek/mlb_stat_importance</a>
+                </div>
+            </section>
+        </div>
+
+        <div class="modal fade" id="movie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie Trailer Website</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <figure>
+                            <img class="img-responsive" src="images/film.jpg" alt="film">
+                            <figcaption class="text-large">My first project for Udacity Full Stack Web Developer Nanodegree program. My favorite movies with their trailers & wikipedia links</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bible" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Bible Verses Classifier</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <figure>
+                            <img class="img-responsive" src="images/bible.jpg" alt="bible">
+                            <figcaption class="text-large">My first personal project. A model classifying a given bible verse to the right testament using Naive Bayes.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="mlb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">MLB Stat Importance</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <figure>
+                            <img class="img-responsive" src="images/mlb-logo.jpg" alt="mlb-logo">
+                            <figcaption class="text-large">A model predicting a major league baseball team's winning percentage with team stats using linear regressions. The magnitudes of each stats' coefficients represent their relative importance to the team's winning percentage.</figcaption>
+                        </figure>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

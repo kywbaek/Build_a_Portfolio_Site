@@ -1,0 +1,35 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+hr.thick {
+    border-width: 05px;
+    border-color: #7d97ad;
+}
+
+figcaption.text-large {
+    font-size: 20px;
+}
+
+.title-row {
+    margin-top: 20px;
+}
+
+.project-img:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .title-logo {
+        float: left;
+    }
+
+    .project-header {
+        text-align: center;
+    }
+
+    .project-img {
+        margin: auto;
+    }
+}
