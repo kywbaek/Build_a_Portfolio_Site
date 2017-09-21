@@ -1,6 +1,8 @@
-# _Portfolio Website_
+_Portfolio Website_
+===================
 
-portfolio website with links to my projects
+## Project Overview :
+A responsive website that displays images, descriptions and links to each of the portfolio projects.
 
-### Usage
-open `portfolio.html` with web browser
+## Usage :
+Open `portfolio.html` with web browser.
