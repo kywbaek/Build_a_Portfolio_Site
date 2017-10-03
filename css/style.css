@@ -20,6 +20,10 @@ figcaption.text-large {
     cursor: pointer;
 }
 
+.project-img {
+    margin-top: 5px;
+}
+
 @media (max-width: 992px) {
     .title-logo {
         float: left;
@@ -31,5 +35,6 @@ figcaption.text-large {
 
     .project-img {
         margin: auto;
+        margin-top: 5px;
     }
 }
