@@ -12,4 +12,4 @@ A responsive website that displays images, descriptions and links to each of the
 - Sports Catalog _(Sept. 2017)_
 
 ## Usage :
-Open `portfolio.html` with web browser.
+Open `portfolio.html` with a web browser.
