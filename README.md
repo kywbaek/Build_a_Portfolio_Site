@@ -12,4 +12,5 @@ A responsive website that displays images, descriptions and links to each of the
 - Sports Catalog _(Sept. 2017)_
 
 ## Usage :
-Open `portfolio.html` with a web browser.
+- Use Git to clone this repo.
+- Open `portfolio.html` with a web browser.
